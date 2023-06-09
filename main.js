@@ -9,6 +9,6 @@ console.log("**********************************************");
 // this is a internal module.
 import {readFileSync} from "node:fs";
 
-let filePath = "D:\CDAC\WPT santosh sir\day9\classWork\src\calc.js";
+let filePath = "D:\CDAC\WPT santosh sir\day9\classWork\src\calc.js ";
 let filedata = readFileSync(filePath,{encoding:"utf-8"});
 console.log(filedata);
